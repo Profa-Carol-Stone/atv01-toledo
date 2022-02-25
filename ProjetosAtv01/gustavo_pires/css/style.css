@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    top: 0;
+  }
+  html, body{
+    height: 100%;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+  }
+  .header{
+      width: 100%;
+      height: 70px;
+      background-image: linear-gradient(to right, #3d3d47, #30313d);
+      
+  }
+  .header img{
+    width: 250px;
+    margin: 19px;
+  }
+  .home{
+    position: absolute;
+    margin-left: 64%;
+    margin-top: 11px;
+    background-color: rgb(0, 153, 255);
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .contato{
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 11px;
+    background-color: rgb(0, 153, 255);
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .box{
+    margin-top: 13%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 28%;
+  }
+  fieldset{
+    border: 3px solid dodgerblue;
+  }
+  legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 5px;
+  }
+  .InputBox{
+    position: relative;
+  }
+  .InputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+  }
+  .LabelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+  }
+  .InputUser:focus ~ .LabelInput, .InputUser:valid ~ .LabelInput{
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+  }
+  #data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+  }
+  #submit{
+    background-image: linear-gradient(to right, rgb(0, 92, 197), rgb(90, 20, 220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  #submit:hover{
+    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
+  }
+  .textarea textarea{
+    background-color: #dddddd;
+    color: #666666;
+    padding: 15px;
+    width: 90%;
+    height: 100px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    resize: none;
+  }
+  .Footer{
+      color: white;
+      text-align: center;
+      margin-top: 66%;
+      width: 100%;
+      height: 50px;
+      background-image: linear-gradient(to right, #3d3d47, #30313d);
+  }
+.Footer > p{
+  display: inline-block;
+margin-top: 17px;
+}
